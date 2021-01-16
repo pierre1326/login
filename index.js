@@ -11,7 +11,7 @@ var user = new mongoose.Schema({
   password: String
 })
 
-const PORT = process.env.PORT || 5000
+const PORT = process.env.PORT || 3000
 
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: true}));
